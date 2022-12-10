@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+.bg-charter {
+  background-color: rgb(194, 232, 230);
+}
+.bg-violet {
+  background-color: violet;
+}
+.borderend {
+  border-bottom: 1px dashed black;
+}

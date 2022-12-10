@@ -1,0 +1,57 @@
+.span-decoration-1 {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span-decoration-2 {
+  background: #cbcbcb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+@media screen and (min-width: 768px) {
+  .certificateborder {
+    border-left: 1px orange solid;
+  }
+  .certificateborder3 {
+    border-top: 1px orange solid;
+  }
+}
+@media screen and (max-width: 768px) {
+  .certificateborder1 {
+    border-bottom: 1px orange solid;
+  }
+  .certificateborder2 {
+    border-top: 1px orange solid;
+  }
+}
+.hidden {
+  display: none;
+}
+
+.myDIV:hover > .viewmorebtn {
+  display: block;
+}
+.job-info-content {
+  display: none;
+}
+
+.myDIV {
+  min-height: 150px;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  background-color: yellow;
+}
+a:active {
+  color: orangered;
+}
+a {
+  color: hotpink;
+}
